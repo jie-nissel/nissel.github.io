@@ -29,14 +29,14 @@ github_username:  SeanTater
 
 # Build settings
 texture:
-  title: Learning
-  tagline: A blog of machine learning and AI
+  title: Today I learned
+  tagline: Software engineering for data science; a blog of optimization and hacks
   date_format: "%b %-d, %Y"
   style: red
 
   social_links:
-    github:  jzhang34
-    linkedIn: in/jzhang34 # format: locale/username
+    github:  SeanTater
+    linkedIn: in/SeanTater # format: locale/username
 
 show_excerpts: true
 plugins:

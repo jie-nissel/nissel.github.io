@@ -1,0 +1,26 @@
+---
+---
+
+@import "theme";
+// Textures
+.texture-red {
+    background-image: url('{{ site.baseurl }}/assets/textures/red.jpg');
+    box-shadow: 0 0 2px 2px gray;
+
+    h2 {
+        color: #ccc;
+    }
+
+    .social i {
+        color: #ddd;
+
+        &:hover {
+            color: lighten(#ddd, 7%);
+        }
+    }
+}
+
+.post-date {
+    /* date should never wrap */
+    flex-shrink: 0;
+}
